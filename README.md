@@ -1,3 +1,11 @@
+**Live Build**
+
+https://piano-training-app.web.app/
+
+**Piano Training App**
+
+Thanks for visiting my app! I created this app for having a visual aid when it comes to learning music theory.  I've been playing piano for 20 years, and drums for 13 years. I remember how tough it was remember things like scale and chord degrees when I started playing.  I will be adding more in the futures.  Hope it helps.
+
 # PianoTrainingApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
