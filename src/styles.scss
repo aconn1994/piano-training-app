@@ -1,0 +1,20 @@
+
+@import '~@angular/material/theming';
+@include mat-core();
+
+$piano-training-app-primary: mat-palette($mat-indigo);
+$piano-training-app-accent: mat-palette($mat-pink, A200, A100, A400);
+$piano-training-app-warn: mat-palette($mat-red);
+
+$piano-training-app-dark-theme: mat-dark-theme((
+  color: (
+    primary: $piano-training-app-primary,
+    accent: $piano-training-app-accent,
+    warn: $piano-training-app-warn,
+  )
+));
+
+@include angular-material-color($piano-training-app-dark-theme);
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

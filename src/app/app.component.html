@@ -1,0 +1,21 @@
+<h1>Keys</h1>
+
+<mat-tab-group mat-align-tabs="center" animationDuration="1500ms">
+  <mat-tab label="Major Keys">
+    <div *ngIf="majorKeysObservable | async as majorKeys">
+      <app-table [keyType]="majorKeys" mood="major"></app-table>
+    </div>
+  </mat-tab>
+
+  <mat-tab label="Natural Minor Keys">
+    <div *ngIf="naturalMinorKeysObservable | async as naturalMinorKeys">
+      <app-table [keyType]="naturalMinorKeys" mood="natural-minor"></app-table>
+    </div>
+  </mat-tab>
+
+  <mat-tab label="Harmonic Minor Keys">
+    <div *ngIf="harmonicMinorKeysObservable | async as harmonicMinorKeys">
+      <app-table [keyType]="harmonicMinorKeys" mood="harmonic-minor"></app-table>
+    </div>
+  </mat-tab>
+</mat-tab-group>

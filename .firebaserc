@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "piano-training-app": {
+      "hosting": {
+        "piano-training-app": [
+          "piano-training-app"
+        ]
+      }
+    }
+  }
+}
